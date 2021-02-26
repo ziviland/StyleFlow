@@ -24,17 +24,17 @@ class GANLatentFactory:
         self.raw_attributes = np.load(os.path.join(DATA_ROOT, "attributes.npy"))
         self.raw_lights = np.load(os.path.join(DATA_ROOT, "light.npy"))
 
-    def get_image(self, idx) -> LatentState:
+    def get_state(self, idx) -> LatentState:
         if idx >= 1000:
-            raise Exception("Image index %i is out of bounds. Max index is 999" % idx)
+            raise Exception("Latent index %i is out of bounds. Max index is 999" % idx)
         return LatentState(
             w=self.raw_w["Latent"][idx],
             flow_attributes=self.raw_attributes[idx].ravel(),
             flow_lights=self.flow_lights[idx],
         )
 
-    def get_random_image(self) -> LatentState:
-        return self.get_image(np.random.randint(1000))
+    def get_random_state(self) -> LatentState:
+        return self.get_state(np.random.randint(1000))
 
 
 class App:
