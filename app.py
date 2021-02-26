@@ -47,7 +47,7 @@ class App:
         config = tf.ConfigProto(allow_soft_placement=True)
         session = tf.Session(config=config)
 
-        opt = Opt("gdrive:networks/stylegan2-ffhq-config-f.pkl")
+        opt = self.Opt("gdrive:networks/stylegan2-ffhq-config-f.pkl")
         with session.as_default():
             model = Build_model(opt)
             w_avg = model.Gs.get_var("dlatent_avg")
