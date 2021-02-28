@@ -55,28 +55,13 @@ This version of StyleGAN2 relies on TensorFlow 1.x.
 
 Didn't test, but may work. 
 
-Clone this repo.
-
 ```bash
 git clone https://github.com/ziviland/styleflow_ganspace_latent_editor.git
 cd styleflow_ganspace_latent_editor/
-```
+docker-compose up --build
 
+```
 You must have CUDA (>=10.0 && <11.0) and [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) installed first !
-
-Then, run :
-
-```bash
-xhost +local:docker # Letting Docker access X server
-wget -P stylegan/ http://d36zk2xti64re0.cloudfront.net/stylegan2/networks/stylegan2-ffhq-config-f.pkl
-docker-compose up --build # Expect some time before UI appears
-```
-
-When finished, run :
-
-```bash
-xhost -local:docker
-```
 
 ## License
 
