@@ -65,7 +65,7 @@ You must have CUDA (>=10.0 && <11.0) and [nvidia-docker2](https://github.com/NVI
 
 ## License
 
-Licebse according to [StyleFlow](https://github.com/RameenAbdal/StyleFlow)([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)) and [GANSpace](https://github.com/harskish/ganspace)([Apache License 2.0](https://github.com/harskish/ganspace#license) repositories
+License according to [StyleFlow](https://github.com/RameenAbdal/StyleFlow)([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)) and [GANSpace](https://github.com/harskish/ganspace)([Apache License 2.0](https://github.com/harskish/ganspace#license) repositories
 
 ## Acknowledgments
 This repository is heavily based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow) and [GANSpace](https://github.com/harskish/ganspace) frameworks.
