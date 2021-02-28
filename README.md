@@ -6,7 +6,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ziviland/styleflow_ganspace_latent_editor/blob/master/Latent_vector_editor_using_StyleFlow_and_GANSpace.ipynb)
 
-![Sequantial edit of latent space](https://raw.githubusercontent.com/ziviland/styleflow_ganspace_latent_editor/master/teaser.png)
+![teaser](https://raw.githubusercontent.com/ziviland/styleflow_ganspace_latent_editor/master/teaser.png)
 
 This repository is heavily based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow) and [GANSpace](https://github.com/harskish/ganspace) repositories.
 Actially, it just combines two of them.
@@ -65,7 +65,7 @@ You must have CUDA (>=10.0 && <11.0) and [nvidia-docker2](https://github.com/NVI
 
 ## License
 
-Licebse according to [StyleFlow](https://github.com/RameenAbdal/StyleFlow)([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)) and [GANSpace](https://github.com/harskish/ganspace)([Apache License 2.0]https://github.com/harskish/ganspace#license) repositories
+Licebse according to [StyleFlow](https://github.com/RameenAbdal/StyleFlow)([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)) and [GANSpace](https://github.com/harskish/ganspace)([Apache License 2.0](https://github.com/harskish/ganspace#license) repositories
 
 ## Acknowledgments
 This repository is heavily based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow) and [GANSpace](https://github.com/harskish/ganspace) frameworks.
