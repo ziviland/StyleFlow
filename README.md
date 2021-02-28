@@ -4,7 +4,7 @@
 ![TensorFlow 1.15.0](https://img.shields.io/badge/TensorFlow-1.15.0-green.svg?style=plastic)
 ![Torchdiffeq 0.0.1](https://img.shields.io/badge/Torchdiffeq-0.0.1-green.svg?style=plastic)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ziviland/styleflow_ganspace_latent_editor/blob/master/Latent_vector_editor_using_StyleFlow_and_GANSpace.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ziviland/styleflow_ganspace_latent_editor/blob/master/Latent_vector_editor.ipynb)
 
 ![teaser](https://raw.githubusercontent.com/ziviland/styleflow_ganspace_latent_editor/master/teaser.png)
 
