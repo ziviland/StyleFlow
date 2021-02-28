@@ -4,9 +4,9 @@
 ![TensorFlow 1.15.0](https://img.shields.io/badge/TensorFlow-1.15.0-green.svg?style=plastic)
 ![Torchdiffeq 0.0.1](https://img.shields.io/badge/Torchdiffeq-0.0.1-green.svg?style=plastic)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/ziviland/57a96ebf9635ff04d8a805718c43b8b2/latent-vector-editor.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/ziviland/0a59ee8110adfb5f5cf92aee3cb2e015/stylegan2_latent_editor.ipynb)
 
-![teaser](https://raw.githubusercontent.com/ziviland/styleflow_ganspace_latent_editor/master/teaser.png)
+![teaser](https://raw.githubusercontent.com/ziviland/stylegan2_latent_editor/master/teaser.png)
 
 This repository is heavily based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow) and [GANSpace](https://github.com/harskish/ganspace) repositories.
 Actially, it just combines two of them.
@@ -40,8 +40,8 @@ There's also available light attributes, but they don't seem impressive to me.
 
 Clone this repo.
 ```bash
-git clone https://github.com/ziviland/styleflow_ganspace_latent_editor.git
-cd styleflow_ganspace_latent_editor/
+git clone https://github.com/ziviland/stylegan2_latent_editor.git
+cd stylegan2_latent_editor/
 ```
 
 This code requires PyTorch(for CNF), TensorFlow(for StyleGAN2), Torchdiffeq, and Python 3+ Please install dependencies by
@@ -56,8 +56,8 @@ This version of StyleGAN2 relies on TensorFlow 1.x.
 Didn't test, but may work. 
 
 ```bash
-git clone https://github.com/ziviland/styleflow_ganspace_latent_editor.git
-cd styleflow_ganspace_latent_editor/
+git clone https://github.com/ziviland/stylegan2_latent_editor.git
+cd stylegan2_latent_editor/
 docker-compose up --build
 
 ```
