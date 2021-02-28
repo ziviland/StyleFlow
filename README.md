@@ -4,7 +4,7 @@
 ![TensorFlow 1.15.0](https://img.shields.io/badge/TensorFlow-1.15.0-green.svg?style=plastic)
 ![Torchdiffeq 0.0.1](https://img.shields.io/badge/Torchdiffeq-0.0.1-green.svg?style=plastic)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/ziviland/0a59ee8110adfb5f5cf92aee3cb2e015/stylegan2_latent_editor.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/ziviland/2007e396929d8f8955ab040cc090fb31/stylegan2_latent_editor.ipynb)
 
 ![teaser](https://raw.githubusercontent.com/ziviland/stylegan2_latent_editor/master/teaser.png)
 
